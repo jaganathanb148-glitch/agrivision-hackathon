@@ -1,0 +1,19 @@
+AGRIVISION — 2–3 MINUTE DEMO SCRIPT
+
+0:00–0:20 — Problem
+“Farmers need timely information about crop condition. Our project, AgriVision, demonstrates a satellite-based crop health monitoring workflow for agricultural sustainability.”
+
+0:20–0:45 — Solution
+“We use vegetation indicators such as NDVI and NDRE to classify agricultural fields into healthy, moderate and stressed conditions, compare current and previous NDVI, and present the results on an interactive dashboard.”
+
+0:45–1:30 — Demo
+“Here we can see the number of monitored fields and the health distribution. The map shows field-level status. Green represents healthy vegetation, orange moderate condition and red stress. We can filter the classes to focus on stressed fields.”
+
+1:30–2:00 — Decision support
+“For each field, the dashboard displays NDVI, NDRE and NDVI change. Stressed fields are highlighted for priority inspection, while moderate fields are recommended for monitoring.”
+
+2:00–2:25 — Innovation / deployment
+“The prototype follows the required pipeline: satellite data, image processing, geospatial analysis, indicator/model, interactive dashboard and decision support. The current demo uses synthetic values for reliability; the same pipeline can be connected to Sentinel-2 and Google Earth Engine for real satellite observations.”
+
+2:25–2:40 — Closing
+“AgriVision turns satellite vegetation information into an easy-to-understand field health view that can support earlier agricultural monitoring and intervention.”
