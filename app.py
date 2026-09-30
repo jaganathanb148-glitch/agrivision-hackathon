@@ -68,8 +68,8 @@ with right:
     st.plotly_chart(fig2,use_container_width=True)
 
 st.subheader("📈 NDVI Change Through Time")
-trend = data[["Field","Previous_NDVI","NDVI"]].melt("Field", var_name="Period", value_name="NDVI")
-fig3=px.bar(trend,x="Field",y="NDVI",color="Period",barmode="group")
+trend = data[["Field", "Previous_NDVI", "NDVI"]].melt("Field", var_name="Period", value_name="NDVI_Value")
+fig3=px.bar(trend,x="Field",y="NDVI_Value",color="Period",barmode="group")
 st.plotly_chart(fig3,use_container_width=True)
 
 st.subheader("📋 Field-Level Analysis")
