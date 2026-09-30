@@ -37,10 +37,10 @@ selected = st.sidebar.multiselect(
 view = data[data["Health"].isin(selected)]
 
 c1,c2,c3,c4 = st.columns(4)
-c1.metric("Fields monitored", len(data))
-c2.metric("Healthy", int((data.Health=="Healthy").sum()))
-c3.metric("Moderate", int((data.Health=="Moderate").sum()))
-c4.metric("Stressed", int((data.Health=="Stressed").sum()))
+c1.metric("Fields shown", len(view))
+c2.metric("Healthy", int((view.Health=="Healthy").sum()))
+c3.metric("Moderate", int((view.Health=="Moderate").sum()))
+c4.metric("Stressed", int((view.Health=="Stressed").sum()))
 
 st.divider()
 
